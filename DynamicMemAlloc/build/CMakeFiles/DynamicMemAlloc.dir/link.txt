@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/DynamicMemAlloc.dir/main.cpp.o CMakeFiles/DynamicMemAlloc.dir/src/Student.cpp.o CMakeFiles/DynamicMemAlloc.dir/src/StudController.cpp.o CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o -o DynamicMemAlloc 
