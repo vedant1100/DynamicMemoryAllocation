@@ -129,30 +129,6 @@ DynamicMemAlloc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/build
 .PHONY : DynamicMemAlloc/fast
 
-Contoller/DynamicMemAlloc.o: Contoller/DynamicMemAlloc.cpp.o
-.PHONY : Contoller/DynamicMemAlloc.o
-
-# target to build an object file
-Contoller/DynamicMemAlloc.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o
-.PHONY : Contoller/DynamicMemAlloc.cpp.o
-
-Contoller/DynamicMemAlloc.i: Contoller/DynamicMemAlloc.cpp.i
-.PHONY : Contoller/DynamicMemAlloc.i
-
-# target to preprocess a source file
-Contoller/DynamicMemAlloc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.i
-.PHONY : Contoller/DynamicMemAlloc.cpp.i
-
-Contoller/DynamicMemAlloc.s: Contoller/DynamicMemAlloc.cpp.s
-.PHONY : Contoller/DynamicMemAlloc.s
-
-# target to generate assembly for a file
-Contoller/DynamicMemAlloc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.s
-.PHONY : Contoller/DynamicMemAlloc.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -225,29 +201,29 @@ src/Student.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/src/Student.cpp.s
 .PHONY : src/Student.cpp.s
 
-src/connection.o: src/connection.cpp.o
-.PHONY : src/connection.o
+src/database.o: src/database.cpp.o
+.PHONY : src/database.o
 
 # target to build an object file
-src/connection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o
-.PHONY : src/connection.cpp.o
+src/database.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.o
+.PHONY : src/database.cpp.o
 
-src/connection.i: src/connection.cpp.i
-.PHONY : src/connection.i
+src/database.i: src/database.cpp.i
+.PHONY : src/database.i
 
 # target to preprocess a source file
-src/connection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.i
-.PHONY : src/connection.cpp.i
+src/database.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.i
+.PHONY : src/database.cpp.i
 
-src/connection.s: src/connection.cpp.s
-.PHONY : src/connection.s
+src/database.s: src/database.cpp.s
+.PHONY : src/database.s
 
 # target to generate assembly for a file
-src/connection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.s
-.PHONY : src/connection.cpp.s
+src/database.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.s
+.PHONY : src/database.cpp.s
 
 # Help Target
 help:
@@ -258,9 +234,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DynamicMemAlloc"
-	@echo "... Contoller/DynamicMemAlloc.o"
-	@echo "... Contoller/DynamicMemAlloc.i"
-	@echo "... Contoller/DynamicMemAlloc.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -270,9 +243,9 @@ help:
 	@echo "... src/Student.o"
 	@echo "... src/Student.i"
 	@echo "... src/Student.s"
-	@echo "... src/connection.o"
-	@echo "... src/connection.i"
-	@echo "... src/connection.s"
+	@echo "... src/database.o"
+	@echo "... src/database.i"
+	@echo "... src/database.s"
 .PHONY : help
 
 

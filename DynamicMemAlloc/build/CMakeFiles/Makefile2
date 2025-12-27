@@ -81,12 +81,12 @@ clean: CMakeFiles/DynamicMemAlloc.dir/clean
 CMakeFiles/DynamicMemAlloc.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DynamicMemAlloc.dir/build.make CMakeFiles/DynamicMemAlloc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vedant/Projects/DynamicMemAlloc/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target DynamicMemAlloc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vedant/Projects/DynamicMemAlloc/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target DynamicMemAlloc"
 .PHONY : CMakeFiles/DynamicMemAlloc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DynamicMemAlloc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vedant/Projects/DynamicMemAlloc/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vedant/Projects/DynamicMemAlloc/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DynamicMemAlloc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vedant/Projects/DynamicMemAlloc/build/CMakeFiles 0
 .PHONY : CMakeFiles/DynamicMemAlloc.dir/rule

@@ -8,11 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vedant/Projects/DynamicMemAlloc/Contoller/DynamicMemAlloc.cpp" "CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o" "gcc" "CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o.d"
   "/home/vedant/Projects/DynamicMemAlloc/main.cpp" "CMakeFiles/DynamicMemAlloc.dir/main.cpp.o" "gcc" "CMakeFiles/DynamicMemAlloc.dir/main.cpp.o.d"
   "/home/vedant/Projects/DynamicMemAlloc/src/StudController.cpp" "CMakeFiles/DynamicMemAlloc.dir/src/StudController.cpp.o" "gcc" "CMakeFiles/DynamicMemAlloc.dir/src/StudController.cpp.o.d"
   "/home/vedant/Projects/DynamicMemAlloc/src/Student.cpp" "CMakeFiles/DynamicMemAlloc.dir/src/Student.cpp.o" "gcc" "CMakeFiles/DynamicMemAlloc.dir/src/Student.cpp.o.d"
-  "/home/vedant/Projects/DynamicMemAlloc/src/connection.cpp" "CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o" "gcc" "CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o.d"
+  "/home/vedant/Projects/DynamicMemAlloc/src/database.cpp" "CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.o" "gcc" "CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

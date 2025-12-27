@@ -111,41 +111,26 @@ CMakeFiles/DynamicMemAlloc.dir/src/StudController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicMemAlloc.dir/src/StudController.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vedant/Projects/DynamicMemAlloc/src/StudController.cpp -o CMakeFiles/DynamicMemAlloc.dir/src/StudController.cpp.s
 
-CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o: CMakeFiles/DynamicMemAlloc.dir/flags.make
-CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o: /home/vedant/Projects/DynamicMemAlloc/src/connection.cpp
-CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o: CMakeFiles/DynamicMemAlloc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vedant/Projects/DynamicMemAlloc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o -MF CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o.d -o CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o -c /home/vedant/Projects/DynamicMemAlloc/src/connection.cpp
+CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.o: CMakeFiles/DynamicMemAlloc.dir/flags.make
+CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.o: /home/vedant/Projects/DynamicMemAlloc/src/database.cpp
+CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.o: CMakeFiles/DynamicMemAlloc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vedant/Projects/DynamicMemAlloc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.o -MF CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.o.d -o CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.o -c /home/vedant/Projects/DynamicMemAlloc/src/database.cpp
 
-CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vedant/Projects/DynamicMemAlloc/src/connection.cpp > CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.i
+CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vedant/Projects/DynamicMemAlloc/src/database.cpp > CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.i
 
-CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vedant/Projects/DynamicMemAlloc/src/connection.cpp -o CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.s
-
-CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o: CMakeFiles/DynamicMemAlloc.dir/flags.make
-CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o: /home/vedant/Projects/DynamicMemAlloc/Contoller/DynamicMemAlloc.cpp
-CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o: CMakeFiles/DynamicMemAlloc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vedant/Projects/DynamicMemAlloc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o -MF CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o.d -o CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o -c /home/vedant/Projects/DynamicMemAlloc/Contoller/DynamicMemAlloc.cpp
-
-CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vedant/Projects/DynamicMemAlloc/Contoller/DynamicMemAlloc.cpp > CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.i
-
-CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vedant/Projects/DynamicMemAlloc/Contoller/DynamicMemAlloc.cpp -o CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.s
+CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vedant/Projects/DynamicMemAlloc/src/database.cpp -o CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.s
 
 # Object files for target DynamicMemAlloc
 DynamicMemAlloc_OBJECTS = \
 "CMakeFiles/DynamicMemAlloc.dir/main.cpp.o" \
 "CMakeFiles/DynamicMemAlloc.dir/src/Student.cpp.o" \
 "CMakeFiles/DynamicMemAlloc.dir/src/StudController.cpp.o" \
-"CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o" \
-"CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o"
+"CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.o"
 
 # External object files for target DynamicMemAlloc
 DynamicMemAlloc_EXTERNAL_OBJECTS =
@@ -153,11 +138,10 @@ DynamicMemAlloc_EXTERNAL_OBJECTS =
 DynamicMemAlloc: CMakeFiles/DynamicMemAlloc.dir/main.cpp.o
 DynamicMemAlloc: CMakeFiles/DynamicMemAlloc.dir/src/Student.cpp.o
 DynamicMemAlloc: CMakeFiles/DynamicMemAlloc.dir/src/StudController.cpp.o
-DynamicMemAlloc: CMakeFiles/DynamicMemAlloc.dir/src/connection.cpp.o
-DynamicMemAlloc: CMakeFiles/DynamicMemAlloc.dir/Contoller/DynamicMemAlloc.cpp.o
+DynamicMemAlloc: CMakeFiles/DynamicMemAlloc.dir/src/database.cpp.o
 DynamicMemAlloc: CMakeFiles/DynamicMemAlloc.dir/build.make
 DynamicMemAlloc: CMakeFiles/DynamicMemAlloc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vedant/Projects/DynamicMemAlloc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable DynamicMemAlloc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vedant/Projects/DynamicMemAlloc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DynamicMemAlloc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DynamicMemAlloc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
